@@ -5,8 +5,133 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Foodopia</title>
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 class="bg-orange-500">Welcome Foodopia Site</h1>
+  <div class="bg-[url('../img/bg-banner.jpg')] bg-no-repeat bg-cover text-white h-full">
+    <nav class="p-5">
+      <ul class="flex justify-end items-center">
+        <li>
+          <a href="#" class="px-5 py-2 text-white/70 hover:bg-black/30 hover:rounded-lg hover:text-white">HOME</a>
+        </li>
+
+        <li>
+          <a href="#" class="px-5 py-2 text-white/70 hover:bg-black/30 hover:rounded-lg hover:text-white">MENU</a>
+        </li>
+
+        <li>
+          <a href="#" class="px-5 py-2 text-white/70 hover:bg-black/30 hover:rounded-lg hover:text-white">OUR STORY</a>
+        </li>
+
+        <li>
+          <a href="#" class="px-5 py-2 text-white/70 hover:bg-black/30 hover:rounded-lg hover:text-white">MENU</a>
+        </li>
+        
+        <li>
+          <a href="#" class="px-5 py-2 text-white/70 hover:bg-black/30 hover:rounded-lg hover:text-white">CONTACT US</a>
+        </li>
+
+        <li class="block relative">
+          <input class="bg-white/75 rounded-full py-2" />
+          <img src="./img/search.svg" class="text-gray-700 absolute top-1.5 right-2 w-7" />
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container mx-auto ">
+      <div class="grid grid-cols-6">
+        <div class="px-0 col-span-3 my-20">
+          <img src="./img/foodopia-logo.png" />
+          <img src="./img/italian-food.png" class="mt-10" />
+
+          <h1 class="text-2xl font-bold mt-14">LOREMIPSUM DOLOR</h1>
+
+          <button class="px-16 py-3 text-xl font-bold text-gray-600 mt-16 hover:bg-opacity-75 bg-white rounded-full">
+            READ MORE
+          </button>
+
+          <p class="text-xl mt-14">
+            Lorem ipsum dolor sit amet, consectetur adipicing elit, sed do iusmod tempor incididunt ut labore et dolore magna.
+          </p>        
+        </div>
+
+        <div class="col-span-3 ">
+          <div class="my-20 relative ">
+            <img src="./img/plate-big.png" class="w-3/5">
+            <img src="./img/cup.png" class="w-1/4">
+            <img src="./img/leaves.png" class="absolute bottom-0 right-1 w-2/3" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-black h-screen border-solid border border-white container mx-auto">
+    <div class="mt-20">
+      <h1 class="font-custom text-[6em] mx-auto text-center">Lorem Ipsum Dolor</h1>
+    </div>
+
+    <div class="w-1/2 mx-auto text-center"> 
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, aliquid harum neque nulla quidem suscipit magni. Eum quaerat beatae officia quam earum vitae dolores, eius ratione ab suscipit non omnis?
+      </p>
+    </div>
+
+    <div class="grid gap-20 grid-cols-3 mt-20">
+      <div>
+        <img src="img/dish-01.png" class="mx-auto drop-shadow-[10px_10px_7px_rgba(0,0,0,0.25)]" />
+        <h5 class="text-2xl font-medium text-center my-5">Lorem ipsum</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit </p>
+      </div>
+
+      <div>
+        <img src="img/dish-02.png" class="mx-auto drop-shadow-[10px_10px_7px_rgba(0,0,0,0.25)]" />
+        <h5 class="text-2xl font-medium text-center my-5">Lorem ipsum</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+
+      <div>
+        <img src="img/dish-03.png" class="mx-auto drop-shadow-[10px_10px_7px_rgba(0,0,0,0.25)]" />
+        <h5 class="text-2xl font-medium text-center my-5">Lorem ipsum</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+    </div>
+    
+    <button class="px-20 py-5 mx-auto bg-gray-800 w-72 text-center block rounded-full font-extrabold text-white mt-10">
+      SHOW MORE
+    </button>
+  </div>
+
+  <div class="container-fluid bg-gray-800 py-20 mt-10">
+    <h1 class="font-custom text-[6em] mx-auto text-center text-white">Lorem Ipsum Dolor</h1>
+
+    <div class="container mx-auto text-white my-10">
+      <div class="grid grid-cols-2 gap-20">
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+      </div>
+
+      <button class="px-20 py-5 mx-auto bg-gray-200 w-72 text-center block rounded-full font-extrabold text-gray-700 mt-20">
+        MORE INFO
+      </button>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-20">
+    <div class="p-20">
+      <img src="img/dish-03.png" class="w-full drop-shadow-4xl" />
+    </div>
+
+    <div class="grid items-center">
+      <h1 class="text-[3em] font-bold">Discount up to 50% All Excursions</h1>
+    </div>
+  </div>
 </body>
 </html>
