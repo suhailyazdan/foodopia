@@ -2,6 +2,14 @@
 module.exports = {
   content: ["./build/*.{html,js}"],
   theme: {
+    fontFamily: {
+      mrdafoe:['Mr Dafoe', 'cursive'],
+      ooohbaby:['Oooh Baby', 'cursive'],
+      kaushanscript:['Kaushan Script', 'cursive'],
+      kings:['Kings', 'cursive'],
+      rocksalt:['Rock Salt', 'cursive']
+    },
+
     extend: {
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'],
